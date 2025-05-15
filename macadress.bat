@@ -135,7 +135,8 @@ netsh interface tcp set global rss=disabled
 netsh interface ipv4 reset arpcache
 netsh interface ipv4 reset destinationcache
 netsh interface ipv4 reset neighbors
-
+netsh interface ipv4 reset winsservers
+netsh interface ipv6 reset winsservers
 netsh interface ipv6 reset arpcache
 netsh interface ipv6 reset destinationcache
 netsh interface ipv6 reset neighbors
