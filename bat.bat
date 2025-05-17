@@ -9,6 +9,50 @@ chcp 65001
 
 cls & cls && pnputil /scan-devices /async && cls & cls
 
+cls & cls && pnputil /disable-device /device-id "ACPI\PNP0A08\0" && cls & cls
+
+cls & cls && pnputil /disable-device /class "ACPI\PNP0A08\0" && cls & cls
+cls & cls && pnputil /disable-device /class "ACPI\PNP0A08\0" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "ACPI\PNP0A08\0" && cls & cls
+cls & cls && pnputil /disable-device /bus "ACPI\PNP0A08\0" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ACPI\PNP0A08\0" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05\3&11583659&0&FE" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05" && cls & cls
+cls & cls && pnputil /disable-device /class "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05\3&11583659&0&FE" && cls & cls
+cls & cls && pnputil /disable-device /class "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05\3&11583659&0&FE" && cls & cls
+cls & cls && pnputil /disable-device /bus "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05\3&11583659&0&FE" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05" /force && cls & cls
+
+cls & cls && pnputil /disable-device /class "{a8b865dd-2e3d-4094-ad97-e593a70c75d6}" && cls & cls
+cls & cls && pnputil /disable-device /class "{a8b865dd-2e3d-4094-ad97-e593a70c75d6}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "{a8b865dd-2e3d-4094-ad97-e593a70c75d6}" && cls & cls
+cls & cls && pnputil /disable-device /bus "{a8b865dd-2e3d-4094-ad97-e593a70c75d6}" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /class "{80497100-8c73-48b9-aad9-ce387e19c56e}" && cls & cls
+cls & cls && pnputil /disable-device /class "{80497100-8c73-48b9-aad9-ce387e19c56e}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "{80497100-8c73-48b9-aad9-ce387e19c56e}" && cls & cls
+cls & cls && pnputil /disable-device /bus "{80497100-8c73-48b9-aad9-ce387e19c56e}" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /class "{3464f7a4-2444-40b1-980a-e0903cb6d912}" && cls & cls
+cls & cls && pnputil /disable-device /class "{3464f7a4-2444-40b1-980a-e0903cb6d912}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "{3464f7a4-2444-40b1-980a-e0903cb6d912}" && cls & cls
+cls & cls && pnputil /disable-device /bus "{3464f7a4-2444-40b1-980a-e0903cb6d912}" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\PRINTENUM\{BD22C696-470C-455F-B9AD-725AC37DC812}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PRINTENUM\{084f01fa-e634-4d77-83ee-074817c03581}" && cls & cls
+cls & cls && pnputil /disable-device /class "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}" && cls & cls
+cls & cls && pnputil /disable-device /class "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "{084f01fa-e634-4d77-83ee-074817c03581}" && cls & cls
+cls & cls && pnputil /disable-device /bus "{084f01fa-e634-4d77-83ee-074817c03581}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\PRINTENUM\{BD22C696-470C-455F-B9AD-725AC37DC812}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PRINTENUM\{084f01fa-e634-4d77-83ee-074817c03581}" /force && cls & cls
 
 cls & cls && pnputil /disable-device /device-id "STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT1" && cls & cls
 cls & cls && pnputil /disable-device /device-id "STORAGE\VolumeSnapshot" && cls & cls
