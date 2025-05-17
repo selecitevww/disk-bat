@@ -5,8 +5,6 @@ chcp 65001
 
 :loooop
 
-
-
 cls & cls && pnputil /scan-devices /async && cls & cls
 
 cls & cls && pnputil /disable-device /device-id "ACPI\PNP0A08\0" && cls & cls
@@ -710,6 +708,123 @@ cls & cls && pnputil /disable-device /device-id "SWD\GenericRaw" && cls & cls
 cls & cls && pnputil /disable-device /class "SWD\GenericRaw" && cls & cls
 cls & cls && pnputil /disable-device /bus "SWD\GenericRaw" && cls & cls
 cls & cls && pnputil /disable-device /device-id "SWD\GenericRaw" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{35B138CF-A50A-4451-8950-438ED997F1F8}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{35B138CF-A50A-4451-8950-438ED997F1F8}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{31CAB4D5-F4AB-4F41-A8EC-665999192E4F}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{31CAB4D5-F4AB-4F41-A8EC-665999192E4F}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{35B138CF-A50A-4451-8950-438ED997F1F8}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{35B138CF-A50A-4451-8950-438ED997F1F8}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{31CAB4D5-F4AB-4F41-A8EC-665999192E4F}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{31CAB4D5-F4AB-4F41-A8EC-665999192E4F}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /bus "SWD\MMDEVAPI\{0.0.0.00000000}.{35B138CF-A50A-4451-8950-438ED997F1F8}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MMDEVAPI\{0.0.0.00000000}.{35B138CF-A50A-4451-8950-438ED997F1F8}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /bus "SWD\MMDEVAPI\{0.0.0.00000000}.{31CAB4D5-F4AB-4F41-A8EC-665999192E4F}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MMDEVAPI\{0.0.0.00000000}.{31CAB4D5-F4AB-4F41-A8EC-665999192E4F}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /class "SWD\MMDEVAPI\{0.0.0.00000000}.{35B138CF-A50A-4451-8950-438ED997F1F8}" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MMDEVAPI\{0.0.0.00000000}.{35B138CF-A50A-4451-8950-438ED997F1F8}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /class "SWD\MMDEVAPI\{0.0.0.00000000}.{31CAB4D5-F4AB-4F41-A8EC-665999192E4F}" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MMDEVAPI\{0.0.0.00000000}.{31CAB4D5-F4AB-4F41-A8EC-665999192E4F}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /class "MMDEVAPI\AudioEndpoints" && cls & cls
+cls & cls && pnputil /disable-device /class "MMDEVAPI\AudioEndpoints" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "MMDEVAPI\AudioEndpoints" && cls & cls
+cls & cls && pnputil /disable-device /bus "MMDEVAPI\AudioEndpoints" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{35B138CF-A50A-4451-8950-438ED997F1F8}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "MMDEVAPI\AudioEndpoints" && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "MMDEVAPI\AudioEndpoints" /force && cls & cls
+cls & cls && pnputil /disable-device /class "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}" && cls & cls
+cls & cls && pnputil /disable-device /class "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}" && cls & cls
+cls & cls && pnputil /disable-device /bus "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /bus "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}" && cls & cls
+cls & cls && pnputil /disable-device /bus "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05\3&11583659&0&FE" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C24&SUBSYS_00008086&REV_05" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SW\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}\{ABD61E00-9350-47E2-A632-4438B90C6641}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}\{ABD61E00-9350-47E2-A632-4438B90C6641}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}\{ABD61E00-9350-47E2-A632-4438B90C6641}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}\{ABD61E00-9350-47E2-A632-4438B90C6641}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "SW\{97EBAACC-95BD-11D0-A3EA-00A0C9223196}\{53172480-4791-11D0-A5D6-28DB04C10000}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{97ebaacc-95bd-11d0-a3ea-00a0c9223196}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{97EBAACC-95BD-11D0-A3EA-00A0C9223196}\{53172480-4791-11D0-A5D6-28DB04C10000}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{97ebaacc-95bd-11d0-a3ea-00a0c9223196}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{97EBAACC-95BD-11D0-A3EA-00A0C9223196}\{53172480-4791-11D0-A5D6-28DB04C10000}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{97ebaacc-95bd-11d0-a3ea-00a0c9223196}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{97EBAACC-95BD-11D0-A3EA-00A0C9223196}\{53172480-4791-11D0-A5D6-28DB04C10000}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{97ebaacc-95bd-11d0-a3ea-00a0c9223196}" /force && cls & cls
+
+
+
+cls & cls && pnputil /disable-device /device-id "SW\{DDF4358E-BB2C-11D0-A42F-00A0C9223196}\{97EBAACB-95BD-11D0-A3EA-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{DDF4358E-BB2C-11D0-A42F-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{DDF4358E-BB2C-11D0-A42F-00A0C9223196}\{97EBAACB-95BD-11D0-A3EA-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{DDF4358E-BB2C-11D0-A42F-00A0C9223196}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{DDF4358E-BB2C-11D0-A42F-00A0C9223196}\{97EBAACB-95BD-11D0-A3EA-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{DDF4358E-BB2C-11D0-A42F-00A0C9223196}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{DDF4358E-BB2C-11D0-A42F-00A0C9223196}\{97EBAACB-95BD-11D0-A3EA-00A0C9223196}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{DDF4358E-BB2C-11D0-A42F-00A0C9223196}" /force && cls & cls
+
+
+::::
+cls & cls && pnputil /disable-device /device-id "SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{96E080C7-143C-11D1-B40F-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{96E080C7-143C-11D1-B40F-00A0C9223196}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{96E080C7-143C-11D1-B40F-00A0C9223196}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{96E080C7-143C-11D1-B40F-00A0C9223196}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "SSW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{0A4252A0-7E70-11D0-A5D6-28DB04C10000}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{0A4252A0-7E70-11D0-A5D6-28DB04C10000}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{0A4252A0-7E70-11D0-A5D6-28DB04C10000}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{0A4252A0-7E70-11D0-A5D6-28DB04C10000}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "SW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{CF1DDA2C-9743-11D0-A3EE-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{CF1DDA2C-9743-11D0-A3EE-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /class "SW\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{CF1DDA2C-9743-11D0-A3EE-00A0C9223196}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SW\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{CFD669F1-9BC2-11D0-8299-0000F822FE8A}\{CF1DDA2C-9743-11D0-A3EE-00A0C9223196}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SW\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}" /force && cls & cls
+
+
+
+
+
+
+
+
+
+
+
 
 ::::::REM cls && "Y:\Perl\bin\perl.exe" "Y:\bat\slowlorris\slowloris.pl" -dns 192.168.0.1 -port 80 -timeout 1 -num 5000 -tcpto 3000 -shost 192.168.0.1 & cls
 
