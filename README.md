@@ -1,3 +1,66 @@
+Когда купил комп, этого не било в диспетчере устройств:
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F7D&SUBSYS_2F7D8086&REV_02\3&103A9D54&0&86" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F7D&SUBSYS_2F7D8086&REV_02" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F7D&SUBSYS_2F7D8086&REV_02\3&103A9D54&0&86" /force && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F7D&SUBSYS_2F7D8086&REV_02" /force && cls & cls
+
+
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F30&SUBSYS_2F308086&REV_02\3&103A9D54&0&91" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F30&SUBSYS_2F308086&REV_02" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F30&SUBSYS_2F308086&REV_02\3&103A9D54&0&91" /force && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F30&SUBSYS_2F308086&REV_02" /force && cls & cls
+
+
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F34&SUBSYS_2F348086&REV_02\3&103A9D54&0&81" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F34&SUBSYS_2F348086&REV_02" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F34&SUBSYS_2F348086&REV_02\3&103A9D54&0&81" /force && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F34&SUBSYS_2F348086&REV_02" /force && cls & cls
+
+
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F36&SUBSYS_2F368086&REV_02\3&103A9D54&0&59" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F36&SUBSYS_2F368086&REV_02" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F36&SUBSYS_2F368086&REV_02\3&103A9D54&0&59" /force && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F36&SUBSYS_2F368086&REV_02" /force && cls & cls
+
+
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F38&SUBSYS_2F388086&REV_02\3&103A9D54&0&95" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F38&SUBSYS_2F388086&REV_02" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F38&SUBSYS_2F388086&REV_02\3&103A9D54&0&95" /force && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F38&SUBSYS_2F388086&REV_02" /force && cls & cls
+
+
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2C&SUBSYS_00008086&REV_02\3&11583659&0&2C" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2C&SUBSYS_00008086&REV_02" && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2C&SUBSYS_00008086&REV_02\3&11583659&0&2C" /force && cls & cls
+
+> cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2C&SUBSYS_00008086&REV_02" /force && cls & cls
+
+
+
+
 Author: BlueLife , Velociraptor
 www.sordum.org
 
