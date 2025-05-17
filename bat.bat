@@ -9,19 +9,439 @@ chcp 65001
 
 cls & cls && pnputil /scan-devices /async && cls & cls
 
+
+::36
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C22&SUBSYS_72708086&REV_05\3&11583659&0&FB" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C22&SUBSYS_72708086&REV_05" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C22&SUBSYS_72708086&REV_05\3&11583659&0&FB" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C22&SUBSYS_72708086&REV_05" /force && cls & cls
+
+::35
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F29&SUBSYS_00008086&REV_02\3&11583659&0&29" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F29&SUBSYS_00008086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F29&SUBSYS_00008086&REV_02\3&11583659&0&29" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F29&SUBSYS_00008086&REV_02" /force && cls & cls
+
+::34
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB0&SUBSYS_2FB08086&REV_02\3&103A9D54&0&A0" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB0&SUBSYS_2FB08086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB0&SUBSYS_2FB08086&REV_02\3&103A9D54&0&A0" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB0&SUBSYS_2FB08086&REV_02" /force && cls & cls
+
+::33
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F71&SUBSYS_2F718086&REV_02\3&103A9D54&0&99" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F71&SUBSYS_2F718086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F71&SUBSYS_2F718086&REV_02\3&103A9D54&0&99" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F71&SUBSYS_2F718086&REV_02" /force && cls & cls
+
+::32
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB2&SUBSYS_2FB28086&REV_02\3&103A9D54&0&A2" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB2&SUBSYS_2FB28086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB2&SUBSYS_2FB28086&REV_02\3&103A9D54&0&A2" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB2&SUBSYS_2FB28086&REV_02" /force && cls & cls
+
+::31
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02\3&103A9D54&0&BD" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02\3&103A9D54&0&BD" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::30
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02\3&103A9D54&0&BD" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02\3&103A9D54&0&BD" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::29
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FF8&SUBSYS_00000000&REV_02\3&103A9D54&0&78" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FF8&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FF8&SUBSYS_00000000&REV_02\3&103A9D54&0&78" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FF8&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::28
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1E&SUBSYS_2F1E8086&REV_02\3&103A9D54&0&85" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1E&SUBSYS_2F1E8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1E&SUBSYS_2F1E8086&REV_02\3&103A9D54&0&85" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1E&SUBSYS_2F1E8086&REV_02" /force && cls & cls
+
+::27
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2A&SUBSYS_00008086&REV_02\3&11583659&0&2A" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2A&SUBSYS_00008086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2A&SUBSYS_00008086&REV_02\3&11583659&0&2A" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2A&SUBSYS_00008086&REV_02" /force && cls & cls
+
+::26
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE0&SUBSYS_2FE08086&REV_02\3&103A9D54&0&60" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE0&SUBSYS_2FE08086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE0&SUBSYS_2FE08086&REV_02\3&103A9D54&0&60" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE0&SUBSYS_2FE08086&REV_02" /force && cls & cls
+
+::25
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBA&SUBSYS_00000000&REV_02\3&103A9D54&0&BE" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBA&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBA&SUBSYS_00000000&REV_02\3&103A9D54&0&BE" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBA&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::24
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE2&SUBSYS_2FE28086&REV_02\3&103A9D54&0&62" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE2&SUBSYS_2FE28086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE2&SUBSYS_2FE28086&REV_02\3&103A9D54&0&62" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE2&SUBSYS_2FE28086&REV_02" /force && cls & cls
+
+::23
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFD&SUBSYS_2FE08086&REV_02\3&103A9D54&0&7D" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFD&SUBSYS_2FE08086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFD&SUBSYS_2FE08086&REV_02\3&103A9D54&0&7D" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFD&SUBSYS_2FE08086&REV_02" /force && cls & cls
+
+::22
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F79&SUBSYS_2F798086&REV_02\3&103A9D54&0&B1" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F79&SUBSYS_2F798086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F79&SUBSYS_2F798086&REV_02\3&103A9D54&0&B1" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F79&SUBSYS_2F798086&REV_02" /force && cls & cls
+
+::21
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE4&SUBSYS_2FE48086&REV_02\3&103A9D54&0&64" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE4&SUBSYS_2FE48086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE4&SUBSYS_2FE48086&REV_02\3&103A9D54&0&64" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE4&SUBSYS_2FE48086&REV_02" /force && cls & cls
+
+::20
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE6&SUBSYS_2FE68086&REV_02\3&103A9D54&0&66" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE6&SUBSYS_2FE68086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE6&SUBSYS_2FE68086&REV_02\3&103A9D54&0&66" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE6&SUBSYS_2FE68086&REV_02" /force && cls & cls
+
+::19
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE8&SUBSYS_2FE88086&REV_02\3&103A9D54&0&68" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE8&SUBSYS_2FE88086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE8&SUBSYS_2FE88086&REV_02\3&103A9D54&0&68" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE8&SUBSYS_2FE88086&REV_02" /force && cls & cls
+
+::18
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAE&SUBSYS_00000000&REV_02\3&103A9D54&0&9E" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAE&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAE&SUBSYS_00000000&REV_02\3&103A9D54&0&9E" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAE&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::17
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBF&SUBSYS_00000000&REV_02\3&103A9D54&0&A7" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBF&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBF&SUBSYS_00000000&REV_02\3&103A9D54&0&A7" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBF&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::16
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F88&SUBSYS_00000000&REV_02\3&103A9D54&0&F8" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F88&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F88&SUBSYS_00000000&REV_02\3&103A9D54&0&F8" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F88&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::15
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F88&SUBSYS_00000000&REV_02\3&103A9D54&0&F8" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F88&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F88&SUBSYS_00000000&REV_02\3&103A9D54&0&F8" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F88&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::14
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBC&SUBSYS_00000000&REV_02\3&103A9D54&0&A4" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBC&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBC&SUBSYS_00000000&REV_02\3&103A9D54&0&A4" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBC&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::13
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FA0&SUBSYS_2FA08086&REV_02\3&103A9D54&0&90" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FA0&SUBSYS_2FA08086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FA0&SUBSYS_2FA08086&REV_02\3&103A9D54&0&90" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FA0&SUBSYS_2FA08086&REV_02" /force && cls & cls
+
+::12
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFB&SUBSYS_00000000&REV_02\3&103A9D54&0&7B" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFB&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFB&SUBSYS_00000000&REV_02\3&103A9D54&0&7B" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFB&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::11
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD0&SUBSYS_2FD08086&REV_02\3&103A9D54&0&B8" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD0&SUBSYS_2FD08086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD0&SUBSYS_2FD08086&REV_02\3&103A9D54&0&B8" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD0&SUBSYS_2FD08086&REV_02" /force && cls & cls
+
+::10
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FA8&SUBSYS_2FA88086&REV_02\3&103A9D54&0&98" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FA8&SUBSYS_2FA88086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FA8&SUBSYS_2FA88086&REV_02\3&103A9D54&0&98" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FA8&SUBSYS_2FA88086&REV_02" /force && cls & cls
+
+::9
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F28&SUBSYS_00008086&REV_02\3&11583659&0&28" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F28&SUBSYS_00008086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F28&SUBSYS_00008086&REV_02\3&11583659&0&28" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F28&SUBSYS_00008086&REV_02" /force && cls & cls
+
+::8
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD2&SUBSYS_2FD28086&REV_02\3&103A9D54&0&BA" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD2&SUBSYS_2FD28086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD2&SUBSYS_2FD28086&REV_02\3&103A9D54&0&BA" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD2&SUBSYS_2FD28086&REV_02" /force && cls & cls
+
+::7
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB8&SUBSYS_00000000&REV_02\3&103A9D54&0&BC" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB8&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB8&SUBSYS_00000000&REV_02\3&103A9D54&0&BC" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB8&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::6
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F99&SUBSYS_2F998086&REV_02\3&103A9D54&0&F1" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F99&SUBSYS_2F998086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F99&SUBSYS_2F998086&REV_02\3&103A9D54&0&F1" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F99&SUBSYS_2F998086&REV_02" /force && cls & cls
+
+::5
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6A&SUBSYS_2F6A8086&REV_02\3&103A9D54&0&B2" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6A&SUBSYS_2F6A8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6A&SUBSYS_2F6A8086&REV_02\3&103A9D54&0&B2" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6A&SUBSYS_2F6A8086&REV_02" /force && cls & cls
+
+::4
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAB&SUBSYS_2FAB8086&REV_02\3&103A9D54&0&9B" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAB&SUBSYS_2FAB8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAB&SUBSYS_2FAB8086&REV_02\3&103A9D54&0&9B" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAB&SUBSYS_2FAB8086&REV_02" /force && cls & cls
+
+::3
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFC&SUBSYS_2FE08086&REV_02\3&103A9D54&0&7C" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFC&SUBSYS_2FE08086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFC&SUBSYS_2FE08086&REV_02\3&103A9D54&0&7C" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFC&SUBSYS_2FE08086&REV_02" /force && cls & cls
+
+::2
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F9A&SUBSYS_2F9A8086&REV_02\3&103A9D54&0&F2" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F9A&SUBSYS_2F9A8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F9A&SUBSYS_2F9A8086&REV_02\3&103A9D54&0&F2" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F9A&SUBSYS_2F9A8086&REV_02" /force && cls & cls
+
+::1
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F9C&SUBSYS_2F9C8086&REV_02\3&103A9D54&0&F4" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F9C&SUBSYS_2F9C8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F9C&SUBSYS_2F9C8086&REV_02\3&103A9D54&0&F4" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F9C&SUBSYS_2F9C8086&REV_02" /force && cls & cls
+
+::27
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB1&SUBSYS_2FB18086&REV_02\3&103A9D54&0&A1" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB1&SUBSYS_2FB18086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB1&SUBSYS_2FB18086&REV_02\3&103A9D54&0&A1" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB1&SUBSYS_2FB18086&REV_02" /force && cls & cls
+
+::26
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB3&SUBSYS_2FB38086&REV_02\3&103A9D54&0&A3" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB3&SUBSYS_2FB38086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB3&SUBSYS_2FB38086&REV_02\3&103A9D54&0&A3" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FB3&SUBSYS_2FB38086&REV_02" /force && cls & cls
+
+::25
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1D&SUBSYS_2F1D8086&REV_02\3&103A9D54&0&80" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1D&SUBSYS_2F1D8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1D&SUBSYS_2F1D8086&REV_02\3&103A9D54&0&80" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1D&SUBSYS_2F1D8086&REV_02" /force && cls & cls
+
+::24
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1F&SUBSYS_2F1F8086&REV_02\3&103A9D54&0&87" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1F&SUBSYS_2F1F8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1F&SUBSYS_2F1F8086&REV_02\3&103A9D54&0&87" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F1F&SUBSYS_2F1F8086&REV_02" /force && cls & cls
+
+::23
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE1&SUBSYS_2FE18086&REV_02\3&103A9D54&0&61" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE1&SUBSYS_2FE18086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE1&SUBSYS_2FE18086&REV_02\3&103A9D54&0&61" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE1&SUBSYS_2FE18086&REV_02" /force && cls & cls
+
+::22
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE3&SUBSYS_2FE38086&REV_02\3&103A9D54&0&63" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE3&SUBSYS_2FE38086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE3&SUBSYS_2FE38086&REV_02\3&103A9D54&0&63" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE3&SUBSYS_2FE38086&REV_02" /force && cls & cls
+
+::21
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE5&SUBSYS_2FE58086&REV_02\3&103A9D54&0&65" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE5&SUBSYS_2FE58086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE5&SUBSYS_2FE58086&REV_02\3&103A9D54&0&65" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE5&SUBSYS_2FE58086&REV_02" /force && cls & cls
+
+::20
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBE&SUBSYS_00000000&REV_02\3&103A9D54&0&A6" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBE&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBE&SUBSYS_00000000&REV_02\3&103A9D54&0&A6" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBE&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::19
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE7&SUBSYS_2FE78086&REV_02\3&103A9D54&0&67" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE7&SUBSYS_2FE78086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE7&SUBSYS_2FE78086&REV_02\3&103A9D54&0&67" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE7&SUBSYS_2FE78086&REV_02" /force && cls & cls
+
+::18
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE9&SUBSYS_2FE98086&REV_02\3&103A9D54&0&69" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE9&SUBSYS_2FE98086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE9&SUBSYS_2FE98086&REV_02\3&103A9D54&0&69" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FE9&SUBSYS_2FE98086&REV_02" /force && cls & cls
+
+::17
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6E&SUBSYS_00000000&REV_02\3&103A9D54&0&B6" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6E&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6E&SUBSYS_00000000&REV_02\3&103A9D54&0&B6" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6E&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::17
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6E&SUBSYS_00000000&REV_02\3&103A9D54&0&B6" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6E&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6E&SUBSYS_00000000&REV_02\3&103A9D54&0&B6" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6E&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::16
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FF9&SUBSYS_00000000&REV_02\3&103A9D54&0&79" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FF9&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FF9&SUBSYS_00000000&REV_02\3&103A9D54&0&79" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FF9&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::15
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FC0&SUBSYS_2FC08086&REV_02\3&103A9D54&0&F3" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FC0&SUBSYS_2FC08086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FC0&SUBSYS_2FC08086&REV_02\3&103A9D54&0&F3" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FC0&SUBSYS_2FC08086&REV_02" /force && cls & cls
+
+::14
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBB&SUBSYS_00000000&REV_02\3&103A9D54&0&BF" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBB&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBB&SUBSYS_00000000&REV_02\3&103A9D54&0&BF" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBB&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::13
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFE&SUBSYS_2FE08086&REV_02\3&103A9D54&0&7E" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFE&SUBSYS_2FE08086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFE&SUBSYS_2FE08086&REV_02\3&103A9D54&0&7E" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFE&SUBSYS_2FE08086&REV_02" /force && cls & cls
+
+::12
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F81&SUBSYS_2F818086&REV_02\3&103A9D54&0&58" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F81&SUBSYS_2F818086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F81&SUBSYS_2F818086&REV_02\3&103A9D54&0&58" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F81&SUBSYS_2F818086&REV_02" /force && cls & cls
+
+::11
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFA&SUBSYS_00000000&REV_02\3&103A9D54&0&7A" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFA&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFA&SUBSYS_00000000&REV_02\3&103A9D54&0&7A" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FFA&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::10
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAF&SUBSYS_00000000&REV_02\3&103A9D54&0&9F" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAF&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAF&SUBSYS_00000000&REV_02\3&103A9D54&0&9F" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAF&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::9
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F60&SUBSYS_2F608086&REV_02\3&103A9D54&0&94" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F60&SUBSYS_2F608086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F60&SUBSYS_2F608086&REV_02\3&103A9D54&0&94" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F60&SUBSYS_2F608086&REV_02" /force && cls & cls
+
+::8
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD1&SUBSYS_2FD18086&REV_02\3&103A9D54&0&B9" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD1&SUBSYS_2FD18086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD1&SUBSYS_2FD18086&REV_02\3&103A9D54&0&B9" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD1&SUBSYS_2FD18086&REV_02" /force && cls & cls
+
+::7
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F68&SUBSYS_2F688086&REV_02\3&103A9D54&0&B0" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F68&SUBSYS_2F688086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F68&SUBSYS_2F688086&REV_02\3&103A9D54&0&B0" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F68&SUBSYS_2F688086&REV_02" /force && cls & cls
+
+::6
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD3&SUBSYS_2FD38086&REV_02\3&103A9D54&0&BB" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD3&SUBSYS_2FD38086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD3&SUBSYS_2FD38086&REV_02\3&103A9D54&0&BB" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FD3&SUBSYS_2FD38086&REV_02" /force && cls & cls
+
+::5
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F98&SUBSYS_2F988086&REV_02\3&103A9D54&0&F0" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F98&SUBSYS_2F988086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F98&SUBSYS_2F988086&REV_02\3&103A9D54&0&F0" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F98&SUBSYS_2F988086&REV_02" /force && cls & cls
+
+::4
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAA&SUBSYS_2FAA8086&REV_02\3&103A9D54&0&9A" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAA&SUBSYS_2FAA8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAA&SUBSYS_2FAA8086&REV_02\3&103A9D54&0&9A" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FAA&SUBSYS_2FAA8086&REV_02" /force && cls & cls
+
+::3
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F8A&SUBSYS_00000000&REV_02\3&103A9D54&0&FA" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F8A&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F8A&SUBSYS_00000000&REV_02\3&103A9D54&0&FA" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F8A&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::2
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBD&SUBSYS_00000000&REV_02\3&103A9D54&0&A5" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBD&SUBSYS_00000000&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBD&SUBSYS_00000000&REV_02\3&103A9D54&0&A5" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2FBD&SUBSYS_00000000&REV_02" /force && cls & cls
+
+::1
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6B&SUBSYS_2F6B8086&REV_02\3&103A9D54&0&B3" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6B&SUBSYS_2F6B8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6B&SUBSYS_2F6B8086&REV_02\3&103A9D54&0&B3" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F6B&SUBSYS_2F6B8086&REV_02" /force && cls & cls
+
+
+
+::::::::::::7 kozlyat
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F37&SUBSYS_2F378086&REV_02\3&103A9D54&0&5A" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F37&SUBSYS_2F378086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F37&SUBSYS_2F378086&REV_02\3&103A9D54&0&5A" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F37&SUBSYS_2F378086&REV_02" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F7D&SUBSYS_2F7D8086&REV_02\3&103A9D54&0&86" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F7D&SUBSYS_2F7D8086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F7D&SUBSYS_2F7D8086&REV_02\3&103A9D54&0&86" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F7D&SUBSYS_2F7D8086&REV_02" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F30&SUBSYS_2F308086&REV_02\3&103A9D54&0&91" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F30&SUBSYS_2F308086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F30&SUBSYS_2F308086&REV_02\3&103A9D54&0&91" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F30&SUBSYS_2F308086&REV_02" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F34&SUBSYS_2F348086&REV_02\3&103A9D54&0&81" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F34&SUBSYS_2F348086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F34&SUBSYS_2F348086&REV_02\3&103A9D54&0&81" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F34&SUBSYS_2F348086&REV_02" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F36&SUBSYS_2F368086&REV_02\3&103A9D54&0&59" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F36&SUBSYS_2F368086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F36&SUBSYS_2F368086&REV_02\3&103A9D54&0&59" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F36&SUBSYS_2F368086&REV_02" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F38&SUBSYS_2F388086&REV_02\3&103A9D54&0&95" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F38&SUBSYS_2F388086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F38&SUBSYS_2F388086&REV_02\3&103A9D54&0&95" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F38&SUBSYS_2F388086&REV_02" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2C&SUBSYS_00008086&REV_02\3&11583659&0&2C" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2C&SUBSYS_00008086&REV_02" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2C&SUBSYS_00008086&REV_02\3&11583659&0&2C" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_2F2C&SUBSYS_00008086&REV_02" /force && cls & cls
+::::::::::::
+
 cls & cls && pnputil /disable-device /class "{6a3433f4-5626-40e8-a9b9-dbd9ecd2884b}" && cls & cls
 cls & cls && pnputil /disable-device /class "{6a3433f4-5626-40e8-a9b9-dbd9ecd2884b}" /force && cls & cls
 cls & cls && pnputil /disable-device /bus "{6a3433f4-5626-40e8-a9b9-dbd9ecd2884b}" && cls & cls
 cls & cls && pnputil /disable-device /bus "{6a3433f4-5626-40e8-a9b9-dbd9ecd2884b}" /force && cls & cls
 
-
-
 cls & cls && pnputil /disable-device /class "{a8b865dd-2e3d-4094-ad97-e593a70c75d6}" && cls & cls
 cls & cls && pnputil /disable-device /class "{a8b865dd-2e3d-4094-ad97-e593a70c75d6}" /force && cls & cls
 cls & cls && pnputil /disable-device /bus "{a8b865dd-2e3d-4094-ad97-e593a70c75d6}" && cls & cls
 cls & cls && pnputil /disable-device /bus "{a8b865dd-2e3d-4094-ad97-e593a70c75d6}" /force && cls & cls
-
-
 
 cls & cls && pnputil /disable-device /class "{80497100-8c73-48b9-aad9-ce387e1956e}" && cls & cls
 cls & cls && pnputil /disable-device /class "{80497100-8c73-48b9-aad9-ce387e1956e}" /force && cls & cls
