@@ -816,7 +816,15 @@ cls & cls && pnputil /disable-device /device-id "SW\{CFD669F1-9BC2-11D0-8299-000
 cls & cls && pnputil /disable-device /device-id "SW\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}" /force && cls & cls
 
 
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{6FD92F2F-CCF9-4147-B6C1-C1C9D9142022}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{6FD92F2F-CCF9-4147-B6C1-C1C9D9142022}" && cls & cls
+cls & cls && pnputil /disable-device /class "{06d10322-7de0-4cef-8e25-197d0e7442e2}" && cls & cls
+cls & cls && pnputil /disable-device /bus "{06d10322-7de0-4cef-8e25-197d0e7442e2}" && cls & cls
 
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{6FD92F2F-CCF9-4147-B6C1-C1C9D9142022}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{6FD92F2F-CCF9-4147-B6C1-C1C9D9142022}" /force && cls & cls
+cls & cls && pnputil /disable-device /class "{06d10322-7de0-4cef-8e25-197d0e7442e2}" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "{06d10322-7de0-4cef-8e25-197d0e7442e2}" /force && cls & cls
 
 
 
