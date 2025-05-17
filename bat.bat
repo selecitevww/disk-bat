@@ -10,6 +10,72 @@ chcp 65001
 cls & cls && pnputil /scan-devices /async && cls & cls
 
 
+cls & cls && pnputil /disable-device /device-id "STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT1" && cls & cls
+cls & cls && pnputil /disable-device /device-id "STORAGE\VolumeSnapshot" && cls & cls
+cls & cls && pnputil /disable-device /class "STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT1" && cls & cls
+cls & cls && pnputil /disable-device /class "STORAGE\VolumeSnapshot" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT1" && cls & cls
+cls & cls && pnputil /disable-device /bus "STORAGE\VolumeSnapshot" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT1" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "STORAGE\VolumeSnapshot" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{6FD92F2F-CCF9-4147-B6C1-C1C9D9142022}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "MMDEVAPI\AudioEndpoints" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MMDEVAPI\{0.0.0.00000000}.{6FD92F2F-CCF9-4147-B6C1-C1C9D9142022}" && cls & cls
+cls & cls && pnputil /disable-device /class "MMDEVAPI\AudioEndpoints" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MMDEVAPI\{0.0.0.00000000}.{6FD92F2F-CCF9-4147-B6C1-C1C9D9142022}" && cls & cls
+cls & cls && pnputil /disable-device /bus "MMDEVAPI\AudioEndpoints" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\{0.0.0.00000000}.{6FD92F2F-CCF9-4147-B6C1-C1C9D9142022}" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "MMDEVAPI\AudioEndpoints" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_10DE&DEV_0FB9&SUBSYS_860F1043&REV_A1" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_10DE&DEV_0FB9&SUBSYS_860F1043&REV_A1\4&31024D2F&0&0118" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_10DE&DEV_0FB9&SUBSYS_860F1043&REV_A1" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_10DE&DEV_0FB9&SUBSYS_860F1043&REV_A1\4&31024D2F&0&0118" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_10DE&DEV_0FB9&SUBSYS_860F1043&REV_A1" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_10DE&DEV_0FB9&SUBSYS_860F1043&REV_A1\4&31024D2F&0&0118" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_10DE&DEV_0FB9&SUBSYS_860F1043&REV_A1" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PCI\VEN_10DE&DEV_0FB9&SUBSYS_860F1043&REV_A1\4&31024D2F&0&0118" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "ROOT\RDPBUS\0000" && cls & cls
+cls & cls && pnputil /disable-device /device-id "ROOT\RDPBUS" && cls & cls
+cls & cls && pnputil /disable-device /class "ROOT\RDPBUS\0000" && cls & cls
+cls & cls && pnputil /disable-device /class "ROOT\RDPBUS" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "ROOT\RDPBUS\0000" && cls & cls
+cls & cls && pnputil /disable-device /bus "ROOT\RDPBUS" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ROOT\RDPBUS\0000" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ROOT\RDPBUS" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "ACPI\PNP0501\0" && cls & cls
+cls & cls && pnputil /disable-device /device-id "ACPI\VEN_PNP&DEV_0501" && cls & cls
+cls & cls && pnputil /disable-device /class "ACPI\PNP0501\0" && cls & cls
+cls & cls && pnputil /disable-device /class "ACPI\VEN_PNP&DEV_0501" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "ACPI\PNP0501\0" && cls & cls
+cls & cls && pnputil /disable-device /bus "ACPI\VEN_PNP&DEV_0501" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ACPI\PNP0501\0" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ACPI\VEN_PNP&DEV_0501" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\PRINTENUM\PRINTQUEUES" && cls & cls
+cls & cls && pnputil /disable-device /device-id "PRINTENUM\LocalPrintQueue" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\PRINTENUM\PRINTQUEUES" && cls & cls
+cls & cls && pnputil /disable-device /class "PRINTENUM\LocalPrintQueue" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\PRINTENUM\PRINTQUEUES" && cls & cls
+cls & cls && pnputil /disable-device /bus "PRINTENUM\LocalPrintQueue" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\PRINTENUM\PRINTQUEUES" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "PRINTENUM\LocalPrintQueue" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "ROOT\KDNIC\0000" && cls & cls
+cls & cls && pnputil /disable-device /device-id "root\kdnic" && cls & cls
+cls & cls && pnputil /disable-device /class "ROOT\KDNIC\0000" && cls & cls
+cls & cls && pnputil /disable-device /class "root\kdnic" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "ROOT\KDNIC\0000" && cls & cls
+cls & cls && pnputil /disable-device /bus "root\kdnic" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ROOT\KDNIC\0000" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "root\kdnic" /force && cls & cls
+
+
 ::36
 cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C22&SUBSYS_72708086&REV_05\3&11583659&0&FB" && cls & cls
 cls & cls && pnputil /disable-device /device-id "PCI\VEN_8086&DEV_8C22&SUBSYS_72708086&REV_05" && cls & cls
@@ -497,6 +563,110 @@ cls & cls && pnputil /disable-device /device-id "COMPUTER\{79CA7F93-1FE5-507F-86
 cls & cls && pnputil /disable-device /device-id "COMPUTER\{B4A74A41-45A2-50C6-9DE6-186F218F918A}" /force && cls & cls
 cls & cls && pnputil /disable-device /device-id "COMPUTER\{79CA7F93-1FE5-507F-866B-87BFCABB8F4B}" /force && cls & cls
 cls & cls && pnputil /disable-device /device-id "COMPUTER\{B4A74A41-45A2-50C6-9DE6-186F218F918A}" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\{5E259276-BC7E-40E3-B93B-8F89B5F3ABC0}" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MSRRAS\{5E259276-BC7E-40E3-B93B-8F89B5F3ABC0}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MSRRAS\{5E259276-BC7E-40E3-B93B-8F89B5F3ABC0}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\{5E259276-BC7E-40E3-B93B-8F89B5F3ABC0}" /force && cls & cls
+
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH" && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}" /force && cls & cls
+
+
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}" && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A}" /force && cls & cls
+
+
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_AGILEVPNMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_agilevpnminiport" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MSRRAS\MS_AGILEVPNMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /class "ms_agilevpnminiport" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MSRRAS\MS_AGILEVPNMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /bus "ms_agilevpnminiport" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_AGILEVPNMINIPORT" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_agilevpnminiport" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_NDISWANIP" && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_ndiswanip" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MSRRAS\MS_NDISWANIP" && cls & cls
+cls & cls && pnputil /disable-device /class "ms_ndiswanip" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MSRRAS\MS_NDISWANIP" && cls & cls
+cls & cls && pnputil /disable-device /bus "ms_ndiswanip" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_NDISWANIP" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_ndiswanip" /force && cls & cls
+
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_NDISWANIPV6" && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_ndiswanipv6" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MSRRAS\MS_NDISWANIPV6" && cls & cls
+cls & cls && pnputil /disable-device /class "ms_ndiswanipv6" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MSRRAS\MS_NDISWANIPV6" && cls & cls
+cls & cls && pnputil /disable-device /bus "ms_ndiswanipv6" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_NDISWANIPV6" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_ndiswanipv6" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_L2TPMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_l2tpminiport" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MSRRAS\MS_L2TPMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /class "ms_l2tpminiport" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MSRRAS\MS_L2TPMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /bus "ms_l2tpminiport" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_L2TPMINIPORT" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_l2tpminiport" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_NDISWANBH" && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_ndiswanbh" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MSRRAS\MS_NDISWANBH" && cls & cls
+cls & cls && pnputil /disable-device /class "ms_ndiswanbh" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MSRRAS\MS_NDISWANBH" && cls & cls
+cls & cls && pnputil /disable-device /bus "ms_ndiswanbh" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_NDISWANBH" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_ndiswanbh" /force && cls & cls
+
+
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_PPPOEMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_pppoeminiport" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MSRRAS\MS_PPPOEMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /class "ms_pppoeminiport" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MSRRAS\MS_PPPOEMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /bus "ms_pppoeminiport" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_PPPOEMINIPORT" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_pppoeminiport" /force && cls & cls
+
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_PPTPMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_pptpminiport" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\MSRRAS\MS_PPTPMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /class "ms_pptpminiport" /force && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\MSRRAS\MS_PPTPMINIPORT" && cls & cls
+cls & cls && pnputil /disable-device /bus "ms_pptpminiport" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\MSRRAS\MS_PPTPMINIPORT" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "ms_pptpminiport" /force && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\GenericRaw" && cls & cls
+cls & cls && pnputil /disable-device /class "SWD\GenericRaw" && cls & cls
+cls & cls && pnputil /disable-device /bus "SWD\GenericRaw" && cls & cls
+cls & cls && pnputil /disable-device /device-id "SWD\GenericRaw" /force && cls & cls
+
 ::::::REM cls && "Y:\Perl\bin\perl.exe" "Y:\bat\slowlorris\slowloris.pl" -dns 192.168.0.1 -port 80 -timeout 1 -num 5000 -tcpto 3000 -shost 192.168.0.1 & cls
 
 goto loooop
